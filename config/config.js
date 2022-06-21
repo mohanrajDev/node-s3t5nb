@@ -1,5 +1,9 @@
 module.exports = {
   development: {
+    username: null,
+    password: null,
+    database: 'mrrp',
+    host: 'localhost',
     dialect: 'sqlite',
     storage: 'database.sqlite',
   },
