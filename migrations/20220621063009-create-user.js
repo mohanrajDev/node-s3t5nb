@@ -8,29 +8,29 @@ module.exports = {
         primaryKey: true,
         type: Sequelize.INTEGER,
       },
-      name: { type: DataTypes.STRING },
+      name: { type: Sequelize.STRING },
       email: {
-        type: DataTypes.STRING,
+        type: Sequelize.STRING,
       },
       phone: {
-        type: DataTypes.STRING,
+        type: Sequelize.STRING,
         allowNull: true,
       },
       password: {
-        type: DataTypes.STRING,
+        type: Sequelize.STRING,
       },
       email_verified: {
-        type: DataTypes.DATE,
+        type: Sequelize.DATE,
         allowNull: true,
         unique: true,
       },
       phone_verified: {
-        type: DataTypes.DATE,
+        type: Sequelize.DATE,
         allowNull: true,
         unique: true,
       },
       is_active: {
-        type: DataTypes.BOOLEAN,
+        type: Sequelize.BOOLEAN,
         defaultValue: true,
       },
       create_at: {
