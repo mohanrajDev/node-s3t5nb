@@ -5,7 +5,7 @@ module.exports = {
     database: 'mrrp',
     host: 'localhost',
     dialect: 'sqlite',
-    storage: 'database.sqlite',
+    storage: 'database.db',
   },
   test: {
     username: 'root',
